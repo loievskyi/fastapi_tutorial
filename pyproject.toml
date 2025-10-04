@@ -3,4 +3,9 @@ name = "fastapi-tutorial"
 version = "0.1.0"
 description = "FastAPI Tutorial"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.118.0",
+]
+
+[dependency-groups]
+dev = []
